@@ -1,0 +1,11 @@
+# Ignore python runtime files
+__pycache__/
+*.pyc
+.venv/
+
+# Ignore Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# CRUCIAL: Ignore Hugging Face cache directories
+.cache/
+huggingface/
